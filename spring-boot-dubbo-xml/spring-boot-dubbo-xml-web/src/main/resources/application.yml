@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: hello-web
+  # dubbo 通用配置
+  dubbo:
+    scan: com.example
+    base-package: com.example
+    application:
+      name: ${spring.application.name}
+    registry:
+      address: zookeeper://127.0.0.1:2181
+      file: cache/dubbo-${spring.application.name}.cache
+      check: false
+      timeout: 20000
+    consumer:
+      lazy: true
+      timeout: 20000
+      check: false
+      retries: 2
+      loadbalance: leastactive
