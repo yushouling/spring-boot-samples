@@ -6,7 +6,7 @@ Spring Boot 集成示例
 ![JDK 1.8](https://img.shields.io/badge/JDK-1.8-brightgreen.svg)
 ![Maven](https://img.shields.io/badge/Maven-3.5.0-yellowgreen.svg)
 ![Test](https://img.shields.io/badge/Test-OK-green.svg)
-![license](https://img.shields.io/badge/license-MPL--2.0-blue.svg)
+![Original](https://img.shields.io/badge/Original-yushouling-blue.svg)
 
  
 简单小巧易上手的各种示例，通过这些示例，快速掌握 Spring Boot 各组件的使用。
@@ -19,3 +19,4 @@ Spring Boot 集成示例
 - [spring-boot-exception-handler](https://github.com/yushouling/spring-boot-samples/tree/master/spring-boot-exception-handler)：Spring Boot 统一异常处理
 - [spring-boot-interceptor](https://github.com/yushouling/spring-boot-samples/tree/master/spring-boot-interceptor)：Spring Boot 拦截器
 - [spring-boot-mybatis](https://github.com/yushouling/spring-boot-samples/tree/master/spring-boot-mybatis)：Spring Boot 集成MyBatis
+- [spring-session-samples](https://github.com/yushouling/spring-boot-samples/tree/master/spring-session-samples)：Spring分布式session
