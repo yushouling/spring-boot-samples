@@ -28,7 +28,7 @@ public class SpringBootRedisTestApplicationTests {
 
 	@Test
 	public void string() {
-		redisTemplate.opsForValue().set("key01", "v01", 1, TimeUnit.HOURS);
+		redisTemplate.opsForValue().set("key01", "v01啊abc", 1, TimeUnit.HOURS);
 		System.out.println(redisTemplate.opsForValue().get("key01"));
 	}
 
