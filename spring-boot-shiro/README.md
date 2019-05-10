@@ -1,6 +1,7 @@
 # Spring Boot + Shiro 集成
 
-本文参考自：https://github.com/YorkeCao/shiro-spring-boot-sample , 在此基础上加了一些注释和调整。
+本文参考自：https://github.com/YorkeCao/shiro-spring-boot-sample ,并结合官网https://shiro.apache.org/spring-boot.html, 在此基础上加了一些注释和调整。
+
 
 Shiro 是一个流行的 Java 安全框架。
 
