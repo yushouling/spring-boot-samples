@@ -7,6 +7,7 @@ Spring Boot 集成示例
 ![Maven](https://img.shields.io/badge/Maven-3.5.0-yellowgreen.svg)
 ![Test](https://img.shields.io/badge/Test-OK-green.svg)
 ![Original](https://img.shields.io/badge/Original-yushouling-blue.svg)
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
  
 简单小巧易上手的各种示例，通过这些示例，快速掌握 Spring Boot 各组件的使用。
@@ -20,3 +21,4 @@ Spring Boot 集成示例
 - [spring-boot-interceptor](https://github.com/yushouling/spring-boot-samples/tree/master/spring-boot-interceptor)：Spring Boot 拦截器
 - [spring-boot-mybatis](https://github.com/yushouling/spring-boot-samples/tree/master/spring-boot-mybatis)：Spring Boot 集成MyBatis
 - [spring-session-samples](https://github.com/yushouling/spring-boot-samples/tree/master/spring-session-samples)：Spring分布式session
+- [spring-boot-shiro](https://github.com/yushouling/spring-boot-samples/tree/master/spring-boot-shiro)：强大且易用的安全框架，可用于身份验证，授权，加密和回话管理。
