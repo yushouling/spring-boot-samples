@@ -32,6 +32,9 @@ public class MQConfig {
 	 *  fanout广播交换机名称
 	 */
 	public static final String STRING_FANOUT_EXCHANGE = "fanoutExchange";
+	/**
+	 * topic路由规则
+	 */
 	public static final String ROUNTING_KEY1 = "topic.key1";
 	// "*"代表一个单词，"#"代表0个或多个单词
 	public static final String ROUNTING_KEY2 = "topic.#";
@@ -77,13 +80,13 @@ public class MQConfig {
 
 	@Bean
 	public Binding topicBind1() {
-		// 只有监听了"topic.key1"才能收到消息
+		// 只有路由规则中有"topic.key1"才能收到消息
 		return BindingBuilder.bind(topicQueue1()).to(topicExchange()).with(ROUNTING_KEY1);
 	}
 
 	@Bean
 	public Binding topicBind2() {
-		// 监听了"topic.key1", "topic.key2"的消费者都能收到消息
+		// 路由规则了"topic.key1", "topic.key2"的消费者都能收到消息
 		return BindingBuilder.bind(topicQueue2()).to(topicExchange()).with(ROUNTING_KEY2);
 	}
 
